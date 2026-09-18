@@ -1,0 +1,126 @@
+h1 {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-decoration: underline;
+}
+.links a {
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 340px;
+  color: rgb(255, 255, 255);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.adm {
+  border: 1px solid rgb(124, 243, 124);
+  background-color: rgb(124, 243, 124);
+  height: 50px;
+  align-items: center;
+  display: flex;
+}
+.first {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.first::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("picture.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(5px);
+  z-index: -1;
+}
+.formulari {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid white;
+  height: 285px;
+  width: 350px;
+  border-radius: 16px;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#text {
+  border-radius: 8px;
+  width: 200px;
+  height: 35px;
+  border: 1px solid gray;
+  padding-left: 13px;
+}
+#pass {
+  border-radius: 8px;
+  width: 200px;
+  height: 35px;
+  border: 1px solid gray;
+  padding-left: 13px;
+}
+#sub {
+  cursor: pointer;
+  border: 1px solid rgb(51, 231, 51);
+  border-radius: 10px;
+  width: 120px;
+  margin-left: 50px;
+  height: 35px;
+  background-color: rgb(51, 231, 51);
+  color: white;
+  font-size: 15px;
+}
+#email {
+  border-radius: 8px;
+  width: 200px;
+  height: 35px;
+  border: 1px solid gray;
+  padding-left: 13px;
+}
+a.create-account {
+  text-decoration: underline;
+  color: blue;
+  margin-left: 106px;
+  font-size: 16px;
+}
+#texto {
+  border-radius: 8px;
+  width: 200px;
+  height: 35px;
+  border: 1px solid gray;
+  padding-left: 13px;
+}
+#passw {
+  border-radius: 8px;
+  width: 200px;
+  height: 35px;
+  border: 1px solid gray;
+  padding-left: 13px;
+}
+#correo {
+  border-radius: 8px;
+  width: 200px;
+  height: 35px;
+  border: 1px solid gray;
+  padding-left: 13px;
+}
+#acc {
+  cursor: pointer;
+  border: 1px solid rgb(51, 231, 51);
+  border-radius: 10px;
+  width: 140px;
+  margin-left: 38px;
+  height: 37px;
+  background-color: rgb(51, 231, 51);
+  color: white;
+  font-size: 15px;
+}
+.home {
+  margin: 0;
+  padding: 0;
+}
